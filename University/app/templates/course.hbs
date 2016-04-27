@@ -1,0 +1,11 @@
+{{!-- course template --}}
+
+<ul>  
+    {{#each model as |course|}}
+        <li>
+            {{course.course_name}}
+        </li>
+    {{/each}}
+</ul>  
+
+{{outlet}}

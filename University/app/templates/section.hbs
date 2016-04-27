@@ -1,0 +1,13 @@
+{{!-- section template --}}
+
+
+<ul>  
+    {{#each model as |section|}}
+        <li>
+            {{section.section_number}}: {{section.student_name}}, {{section.professor_name}}, {{section.course_name}}
+        </li>
+    {{/each}}
+</ul> 
+
+
+{{outlet}}

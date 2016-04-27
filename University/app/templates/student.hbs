@@ -1,0 +1,11 @@
+{{!-- student template --}}
+
+<ul>  
+    {{#each model as |student|}}
+        <li>
+            {{student.student_name}}
+        </li>
+    {{/each}}
+</ul>  
+
+{{outlet}}

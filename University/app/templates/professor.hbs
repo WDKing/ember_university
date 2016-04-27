@@ -1,0 +1,11 @@
+{{!-- professor template --}}
+
+<ul>  
+    {{#each model as |professor|}}
+        <li>
+            {{professor.professor_name}}
+        </li>
+    {{/each}}
+</ul>  
+
+{{outlet}}
